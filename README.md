@@ -34,7 +34,7 @@ Visit [LibFunction Documentation](https://manvin1.github.io/LibFunction/)
 
   - Trapézio Isosceles (na extremidade);
 
-## Limitations
+## Limitations/TODO
 
 - Expressões inválidas podem falhar silenciosamente, sendo evaluadas da melhor maneira possível, ignorando caracteres inválidos, etc.
 
@@ -44,6 +44,8 @@ Visit [LibFunction Documentation](https://manvin1.github.io/LibFunction/)
 
   LibFunction usa antl4 para a tokenization e parsing das expressões, que necessita tanto auto-generated code quanto de um runtime (*.dll or *.lib). antlr4 pode ser usado sob a BSD-3, que é permissiva.
 
+- c++20 std library.
+  
 ## How Build 
 
 A solução foi feita usando o Visual Studio 2022 e o projeto 'Example' está previamente configurado.
